@@ -36,6 +36,7 @@ namespace EmplyOops
                     workingHours = 0;
                 }
                 emphours += workingHours;
+                if(emphours <= maxhours)
                 Console.WriteLine("day::{0} employee_hour::{1}", days, emphours);
                 days++;
             }
