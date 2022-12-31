@@ -6,8 +6,9 @@ namespace Emloyee
     {
         public static void Main(string[] args)
         {
-            EmployeeAttendance emp=new EmployeeAttendance();
-            emp.checkatt();
+            EmployeeCal_PartTimeWage obj = new EmployeeCal_PartTimeWage();
+            obj.Cal_Rwage();
+
         }
     }
 }
