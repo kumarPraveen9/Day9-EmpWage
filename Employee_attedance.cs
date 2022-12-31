@@ -9,7 +9,7 @@ namespace EmplyOops
             int check = random.Next(2);
             if (Employeee == check)
             {
-                Console.WriteLine("\n employee is present");
+                Console.WriteLine("\n employee is present ");
 
 
             }
