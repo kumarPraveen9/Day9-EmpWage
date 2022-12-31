@@ -6,8 +6,8 @@ namespace Emloyee
     {
         public static void Main(string[] args)
         {
-             MonthWage obj = new MonthWage();
-            obj.Cal_Monthwage();
+             LimitedWageCalculation obj = new LimitedWageCalculation();
+            obj.Cal_lmtWage();
 
             
         }
