@@ -6,8 +6,8 @@ namespace Emloyee
     {
         public static void Main(string[] args)
         {
-            SwitchCase obj = new SwitchCase();
-            obj.Cal_Switchwage();
+             MonthWage obj = new MonthWage();
+            obj.Cal_Monthwage();
 
             
         }
