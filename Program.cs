@@ -6,8 +6,8 @@ namespace Emloyee
     {
         public static void Main(string[] args)
         {
-             LimitedWageCalculation obj = new LimitedWageCalculation();
-            obj.Cal_lmtWage();
+             RefactoringCode obj = new RefactoringCode();
+            obj.Cal_Wage(20,100);
 
             
         }
