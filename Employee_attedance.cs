@@ -18,7 +18,6 @@ namespace EmplyOops
                 Console.WriteLine("\n employee is absent");
             }
             return check;
-
         }
     }
 }
