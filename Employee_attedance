@@ -1,27 +1,24 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace EmplyOops
 {
     public class EmployeeAttendance
     {
-        public  void checkatt()
+        public static int checkatt(int Employeee)
         {
-            Console.WriteLine("Program for checking Employee Present or not!!");
-            int Employee = 1;
+         
             Random random = new Random();
             int check = random.Next(2);
-            if (Employee == check)
+            if (Employeee == check)
             {
                 Console.WriteLine("\n employee is present");
+
+
             }
             else
             {
                 Console.WriteLine("\n employee is absent");
             }
+            return check;
+
         }
     }
 }
