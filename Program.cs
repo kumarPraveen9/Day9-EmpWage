@@ -8,6 +8,7 @@ namespace Emloyee
         {
             EmployeeAttendance emp=new EmployeeAttendance();
             emp.checkatt();
+            
         }
     }
 }
