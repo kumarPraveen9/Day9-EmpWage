@@ -6,7 +6,7 @@ namespace EmplyOops
         {
          
             Random random = new Random();
-            int check = random.Next(2);
+            int check = random.Next(3);
             if (Employeee == check)
             {
                 Console.WriteLine("\n employee is present ");
