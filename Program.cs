@@ -6,7 +6,7 @@ namespace Emloyee
     {
         public static void Main(string[] args)
         {
-             RefactoringCode.Cal_Wage(20,100);
+             RefactoringCode.Cal_Wage();
 
             
         }
