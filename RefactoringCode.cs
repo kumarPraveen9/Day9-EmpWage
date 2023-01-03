@@ -8,19 +8,17 @@ namespace EmplyOops
 {
     public class RefactoringCode
     {
-        public static void Cal_Wage()
+        public void Cal_Wage(string Company,int wagePerHour, int maxdays,int maxhours)
         {
-            Console.WriteLine("Program for Calculating Employee Wage !!");
+            Console.WriteLine("\n Program for Calculating {0} Employee Wage !!\n",Company);
 
             int workingHours=8 ;
            
             int emphours = 0;
             int days = 1;
-            int maxdays = 20;
-            int maxhours = 100;
             int Totalwork = 0;
             int Monthwork = 0;
-            int wagePerHour = 20;
+          
 
             while ((emphours <= maxhours) && (days <= maxdays))
             {
