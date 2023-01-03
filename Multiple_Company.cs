@@ -48,6 +48,7 @@ namespace EmplyOops
                 days++;
             }
             Console.WriteLine("TOTAL MONTH WORK: " + Monthwork);
+            
         }
     }
 }
