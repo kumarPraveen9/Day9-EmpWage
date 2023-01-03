@@ -44,9 +44,12 @@ namespace EmplyOops
                     workingHours = 0;
                 }
                 emphours += workingHours;
-                Monthwork += Totalwork;
+            
                 if (emphours <= maxhours)
+                {
+                      Monthwork += Totalwork;
                 Console.WriteLine("day::{0} employee_hour::{1} empwage : {2}", days, emphours,Totalwork);
+                }
                 days++;
             }
             Console.WriteLine("TOTAL MONTH WORK: " + Monthwork);
