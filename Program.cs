@@ -6,9 +6,13 @@ namespace Emloyee
     {
         public static void Main(string[] args)
         {
-             RefactoringCode obj=new RefactoringCode();
-            obj.Cal_Wage("Deloitte",20,15,80);
-            obj.Cal_Wage("Adobe", 25, 10, 60);
+            employeeBuilderWage obj =new employeeBuilderWage("deloitte",20,20,80);
+            obj.Cal_Wage();
+            Console.WriteLine(obj.toString());
+            
+            employeeBuilderWage obj1 = new employeeBuilderWage("adobe",25,10,90);
+            obj1.Cal_Wage();
+            Console.WriteLine(obj1.toString());
 
             
         }
